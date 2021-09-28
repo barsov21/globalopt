@@ -1,0 +1,17 @@
+.button {
+    color: #fff;
+    background-color: $main-color;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: rgba($main-color, .8);
+    }
+    &_nav {
+        font-size: 12px;
+        width: 160px;
+        height: 45px;
+        margin-left: 22px;
+    }
+}

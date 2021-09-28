@@ -1,0 +1,64 @@
+.header {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        margin-left: 58px;
+    }
+    &__menu-item {
+        border-right: 1px dotted #fff;
+        padding: 2px 12px;
+        font-size: 15px;
+        font-weight: 400;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+            border: none;
+        }
+    }
+    &__menu-link {
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        transition: all .3s;
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            width: 0;
+            height: 1px;
+            background-color: $main-color;
+            transition: all .6s;
+        }
+        &:hover {
+            color: rgba($main-color, .8);
+            &::before {
+               width: 100%;
+            }
+        }
+    }
+    &__contacts {
+        text-align: right;
+        margin-left: 53px;
+        &-questions {
+            display: block;
+            color: #fff;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+        }
+        &-phone {
+            color: #fff;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 700;
+        }
+    }
+}
