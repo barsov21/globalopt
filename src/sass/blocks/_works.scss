@@ -1,0 +1,34 @@
+.works {
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0 auto 37px;
+        text-align: center;
+        max-width: 879px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__item-images {
+        margin-bottom: 23px;
+    }
+    &__item-title {
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 7px;
+    }
+    &__item-descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
