@@ -1,0 +1,39 @@
+.features {
+    padding: 58px 0 51px 0;
+    background-color: #f3f3f3;
+    &__title {
+        margin-bottom: 31px;
+    }
+    &__wrapper {
+        display: flex;
+    }
+    &__items {
+        margin-left: 62px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 36px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__item-text {
+        margin-left: 20px;
+    }
+    &__item-title {
+        color: $main-color;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__item-descr {
+        color: $text-color;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+}
