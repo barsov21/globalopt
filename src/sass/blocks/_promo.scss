@@ -1,10 +1,90 @@
 .promo {
+    position: relative;
     min-height: 680px;
     padding: 23px 0 82px 0;
-    background: url('../img/header/main-background.jpg') center (center/cover) no-repeat;
+    background: url('../img/header/main-background.jpg') left 40% (center/cover) no-repeat;
+    z-index: 0;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#2e2e2e, .7);
+        z-index: -1;
+    }
     &__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 47px;
+    }
+    &__descr {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: $main-color;
+        font-size: 72px;
+        margin: 0;
+        padding: 0;
+    }
+    &__subtitle {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: #fff;
+        font-size: 42px;
+        font-weight: 400;
+        margin-bottom: 38px;
+    }
+    &__ellipse {
+        position: relative;
+        width: 9px;
+        height: 9px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-bottom: 27px;
+        &::after,
+        &:before {
+            content: '';
+            position: absolute;
+            width: 390px;
+            height: 1px;
+            background-color: #fff;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::after {
+            right: 20px;
+        }
+        &::before {
+            left: 20px;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 39px;
+    }
+    &__item {
+        text-align: center;
+        width: 285px;
+        &:nth-child(2) {
+            transform: translateY(4%);
+        }
+    }
+    &__item-images {
+        display: block;
+        margin: 0 auto 10px;
+    }
+    &__item-text {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 22px;
     }
 }

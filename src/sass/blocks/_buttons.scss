@@ -3,7 +3,7 @@
     background-color: $main-color;
     border: none;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 25px;
     text-transform: uppercase;
     &:hover {
         background-color: rgba($main-color, .8);
@@ -13,5 +13,11 @@
         width: 160px;
         height: 45px;
         margin-left: 22px;
+    }
+    &_promo {
+        font-size: 15px;
+        font-weight: 700;
+        width: 230px;
+        height: 57px;
     }
 }
