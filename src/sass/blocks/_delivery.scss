@@ -1,5 +1,5 @@
 .delivery {
-    padding: 53px 0 58px 0;
+    padding: 53px 0 79px 0;
     &__subtitle {
         font-size: 21px;
         font-weight: 300;
@@ -92,6 +92,10 @@
         font-size: 13px;
         color: #101010;
         font-weight: 300;
+        margin-left: 6px;
+    }
+    &__form-input:first-of-type {
+        margin-left: 0;
     }
     &__form-button {
         position: absolute;

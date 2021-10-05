@@ -1,0 +1,33 @@
+.scheme {
+    padding: 52px 0 46px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 33px;
+    }
+    &__item {
+        flex-basis: 24.9%;
+        text-align: center;
+        margin-bottom: 26px;
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7) {
+            margin-bottom: 0;
+        }
+    }
+    &__item-images {
+        margin-bottom: 8px;
+    }
+    &__item-title {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    &__item-descr {
+        color: $text-color;
+        font-size: 14px;
+    }
+}

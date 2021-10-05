@@ -1,0 +1,36 @@
+.section {
+    padding: 58px 0 75px 0;
+    &_agent-china {
+        position: relative;
+        z-index: 0;
+        background: url('../img/section/agent-china-bg.jpg') center (center/cover) no-repeat;
+        @include before_bg;
+    }
+    &_managers {
+        position: relative;
+        z-index: 0;
+        background: url('../img/section/managers-bg.jpeg') top 5% (center/cover) no-repeat;
+        @include before_bg;
+    }
+    &__block {
+        max-width: 984px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__block-images {
+        margin-bottom: 20px;
+    }
+    &__block-title {
+        color: #fff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    &__block-descr {
+        color: #fff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+}
