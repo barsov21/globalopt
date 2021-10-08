@@ -44,21 +44,4 @@
             }
         }
     }
-    &__contacts {
-        text-align: right;
-        margin-left: 53px;
-        &-questions {
-            display: block;
-            color: #fff;
-            font-size: 14px;
-            line-height: 24px;
-            font-weight: 300;
-        }
-        &-phone {
-            color: #fff;
-            text-decoration: none;
-            font-size: 19px;
-            font-weight: 700;
-        }
-    }
 }

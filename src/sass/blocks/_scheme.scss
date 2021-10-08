@@ -18,12 +18,13 @@
         }
     }
     &__item-images {
-        margin-bottom: 8px;
+        margin-bottom: 4px;
     }
     &__item-title {
         color: $main-color;
         font-size: 16px;
         font-weight: 700;
+        margin: 0;
         margin-bottom: 5px;
     }
     &__item-descr {

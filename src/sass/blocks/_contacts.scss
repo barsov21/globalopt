@@ -1,0 +1,17 @@
+.contacts {
+    text-align: right;
+    margin-left: 53px;
+    &__questions {
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+    &__phone {
+        color: #fff;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 700;
+    }
+}

@@ -82,21 +82,6 @@
             right: -11px;
         }
     }
-    &__form-input {
-        width: 268px;
-        height: 45px;
-        border: 1px solid rgba(0, 0, 0, 0.21);
-        border-radius: 25px;
-        padding-left: 28px;
-        outline: none;
-        font-size: 13px;
-        color: #101010;
-        font-weight: 300;
-        margin-left: 6px;
-    }
-    &__form-input:first-of-type {
-        margin-left: 0;
-    }
     &__form-button {
         position: absolute;
         bottom: -16%;
