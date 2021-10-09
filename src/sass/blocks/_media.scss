@@ -1,0 +1,121 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        .contacts {
+            display: none;
+        }
+    }
+    .promo {
+        padding-bottom: 75px;
+    }
+    .promo__item {
+        width: 240px;
+    }
+    .promo__item-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__wrapper {
+            justify-content: space-between;
+        }
+        .contacts {
+            display: block;
+        }
+        &__menu {
+            display: none;
+        }
+    }
+    .promo {
+        padding-bottom: 70px;
+        &__title {
+            font-size: 57px;
+        }
+        &__subtitle {
+            font-size: 35px;
+        }
+        &__ellipse::before,
+        &__ellipse::after {
+            width: 340px;
+        }
+        &__items {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__item {
+            width: 260px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        padding-bottom: 65px;
+        &__wrapper {
+            margin-top: 40px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+        &__title {
+            font-size: 42px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+        &__ellipse::before,
+        &__ellipse::after {
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        .contacts {
+            display: none;
+        }
+        &__btn {
+            display: none;
+        }
+    }
+    .promo {
+        padding-top: 10px;
+        padding-bottom: 50px;
+        &__descr {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 36px;
+            margin-bottom: 9px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__ellipse::before,
+        &__ellipse::after {
+            width: 131px;
+        }
+        &__item {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
