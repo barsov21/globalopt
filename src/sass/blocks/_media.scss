@@ -54,6 +54,15 @@
             margin-bottom: 30px;
         }
     }
+    .features {
+        &__item-title {
+            font-size: 14px;
+        }
+        &__item-descr {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -78,6 +87,21 @@
         &__ellipse::after {
             width: 250px;
         }
+    }
+    .features {
+        padding: 50px 0 45px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__items {
+            margin-left: 0;
+            &:first-child {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .title {
+        font-size: 22px;
     }
 }
 
@@ -117,5 +141,14 @@
                 margin-bottom: 0;
             }
         }
+    }
+    .features {
+        padding: 45px 0 40px 0;
+        &__item-text {
+            margin-left: 12px;
+        }
+    }
+    .title {
+        font-size: 18px;
     }
 }
