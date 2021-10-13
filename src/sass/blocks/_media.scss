@@ -48,6 +48,14 @@
     .delivery__form-button {
         left: 38%;
     }
+    .scheme {
+        &__item {
+            flex-basis: 23%;
+        }
+        &__item-descr {
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -109,6 +117,12 @@
     }
     .delivery__input {
         width: 228px;
+    }
+    .scheme__item {
+        flex-basis: 50%;
+        &:last-child {
+            margin-top: 35px;
+        }
     }
 }
 
@@ -264,6 +278,15 @@
         }
         &__form-button {
             left: 18%;
+        }
+    }
+    .scheme__item {
+        flex-basis: 80%;
+        &:nth-child(5) {
+            margin-bottom: 26px;
+        }
+        &:last-child {
+            margin-top: 26px;
         }
     }
 }
