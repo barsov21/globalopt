@@ -124,6 +124,15 @@
             margin-top: 35px;
         }
     }
+    .reviews__subtitle {
+        font-size: 19px;
+    }
+    .slick-next {
+        right: 37%;
+    }
+    .slick-prev {
+        left: 37%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -198,6 +207,16 @@
             left: 30%;
             bottom: -10%;
         }
+    }
+    .reviews__subtitle {
+        font-size: 14px;
+    }
+    .slick-next {
+        right: 33%;
+    }
+
+    .slick-prev {
+        left: 33%;
     }
 }
 
@@ -288,5 +307,19 @@
         &:last-child {
             margin-top: 26px;
         }
+    }
+    .reviews{
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__inner-descr {
+            font-size: 12px;
+        }
+    }
+    .slick-next {
+        right: 16%;
+    }
+    .slick-prev {
+        left: 16%;
     }
 }
