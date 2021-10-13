@@ -133,6 +133,24 @@
     .slick-prev {
         left: 37%;
     }
+    .questions {
+        &__block {
+            width: 720px;
+        }
+        &__form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__input {
+            width: 650px;
+            margin-bottom: 20px;
+        }
+        &__form-textarea {
+            width: 650px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -208,8 +226,11 @@
             bottom: -10%;
         }
     }
-    .reviews__subtitle {
-        font-size: 14px;
+    .reviews {
+        padding: 45px 0 58px 0;
+        &__subtitle {
+            font-size: 14px;
+        }
     }
     .slick-next {
         right: 33%;
@@ -217,6 +238,18 @@
 
     .slick-prev {
         left: 33%;
+    }
+    .questions {
+        padding: 47px 0 65px 0;
+        &__block {
+           width: 540px; 
+        }
+        &__input {
+            width: 500px;
+        }
+        &__form-textarea {
+            width: 500px;
+        }
     }
 }
 
@@ -309,6 +342,7 @@
         }
     }
     .reviews{
+        padding: 40px 0 53px 0;
         &__subtitle {
             font-size: 12px;
         }
@@ -321,5 +355,19 @@
     }
     .slick-prev {
         left: 16%;
+    }
+    .questions {
+        padding: 42px 0 60px 0;
+        &__block {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &__input {
+            width: 280px;
+        }
+        &__form-textarea {
+            width: 280px;
+        }
     }
 }
