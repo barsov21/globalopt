@@ -56,6 +56,11 @@
             font-size: 12px;
         }
     }
+    .footer {
+        &__title {
+            margin-right: 29px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -149,6 +154,25 @@
         }
         &__form-textarea {
             width: 650px;
+        }
+    }
+    .footer {
+        &__top {
+            flex-direction: column;
+        }
+        &__logo {
+            margin-bottom: 10px;
+        }
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__contacts {
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 15px;
+        }
+        &__button {
+            margin-left: 0;
         }
     }
 }
@@ -250,6 +274,10 @@
         &__form-textarea {
             width: 500px;
         }
+    }
+    .map__info {
+        top: 52%;
+        left: 34%;
     }
 }
 
@@ -368,6 +396,28 @@
         }
         &__form-textarea {
             width: 280px;
+        }
+    }
+    .map__info {
+        padding: 20px 35px;
+        width: 260px;
+        top: 51%;
+        left: 2%;
+    }
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 25px;
+        &__title {
+            font-size: 14px;
+        }
+        &__bottom {
+            flex-direction: column;
+        }
+        &__copy {
+            margin-bottom: 8px;
+        }
+        &__policy-link {
+            margin-bottom: 12px;
         }
     }
 }
